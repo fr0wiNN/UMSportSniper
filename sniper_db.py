@@ -13,8 +13,8 @@ import re
 def get_sports_from_db():
     conn = MySQLdb.connect(
         host="localhost",
-        user="max",
-        password="Brzozowa15",
+        user="---", 
+        password="---", # Nie dla psa...
         database="sports_sniper"
     )
     cursor = conn.cursor(MySQLdb.cursors.DictCursor)
